@@ -18,7 +18,7 @@
         main { padding: 2rem 0; }
         .alert { padding: .75rem 1rem; border-radius: .5rem; margin-bottom: 1.5rem; font-size: .95rem; }
         .alert-success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
-        footer { text-align: center; padding: 2rem 0; color: #6c757d; font-size: .85rem; border-top: 1px solid #dee2e6; margin-top: 2rem; }
+        footer { text-align: center; padding: 2rem 0; color: #94a3b8; font-size: .85rem; background: #16213e; margin-top: 2rem; }
     </style>
     @stack('styles')
 </head>
