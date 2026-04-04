@@ -29,6 +29,7 @@
             <nav>
                 <a href="{{ route('posts.index') }}">Blog</a>
                 <a href="{{ route('posts.create') }}">New Post</a>
+                <a href="{{ route('about') }}">About</a>
             </nav>
         </div>
     </header>

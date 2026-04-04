@@ -8,3 +8,5 @@ Route::get('/', fn () => redirect()->route('posts.index'));
 
 Route::resource('posts', PostController::class)->only(['index', 'show', 'create', 'store']);
 Route::post('posts/{post}/comments', [CommentController::class, 'store'])->name('posts.comments.store');
+
+Route::view('about', 'about')->name('about');

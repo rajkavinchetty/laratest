@@ -56,6 +56,14 @@ class DatabaseSeeder extends Seeder
                 'body' => 'Great article! Very helpful for getting started.',
                 'is_approved' => true,
             ]);
+
+            Comment::create([
+                'post_id' => $post->id,
+                'author_name' => 'Bob Smith',
+                'author_email' => 'bob@example.com',
+                'body' => 'Thanks for sharing this, looking forward to more posts.',
+                'is_approved' => true,
+            ]);
         }
     }
 }
