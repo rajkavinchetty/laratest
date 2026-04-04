@@ -12,7 +12,7 @@
         header { background: #16213e; color: #fff; padding: 1rem 0; box-shadow: 0 2px 4px rgba(0,0,0,.1); }
         header .container { display: flex; justify-content: space-between; align-items: center; }
         header h1 { font-size: 1.4rem; }
-        header h1 a { color: #e94560; text-decoration: none; }
+        header h1 a { color: #e94560; text-decoration: none; letter-spacing: .5px; font-weight: 700; }
         nav a { color: #a8b2d1; text-decoration: none; margin-left: 1.5rem; font-size: .95rem; transition: color .2s; }
         nav a:hover { color: #e94560; }
         main { padding: 2rem 0; }
