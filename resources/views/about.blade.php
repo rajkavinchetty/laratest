@@ -16,7 +16,7 @@
 @section('content')
 <div class="about-card">
     <h1>About LaraTest</h1>
-    <p>This is a sample Laravel application built to test the Laravel template CI/CD pipeline on Serverplane.</p>
+    <p>This is a sample Laravel application built to test the Laravel template CI/CD pipeline on Serverplane. It serves as a starting point for validating deployments, migrations, and automated workflows.</p>
 
     <p>The app includes:</p>
     <ul>
