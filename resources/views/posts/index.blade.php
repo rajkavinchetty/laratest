@@ -24,7 +24,7 @@
     .sidebar-card li a span { color: #6c757d; font-size: .8rem; }
     .pagination-wrap { display: flex; justify-content: center; margin-top: 1rem; }
     .pagination-wrap nav { display: flex; gap: .5rem; }
-    .empty-state { text-align: center; padding: 3rem; color: #6c757d; }
+    .empty-state { text-align: center; padding: 3rem; color: #6c757d; background: #fff; border-radius: .75rem; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
     @media (max-width: 768px) { .blog-layout { grid-template-columns: 1fr; } }
 </style>
 @endpush
